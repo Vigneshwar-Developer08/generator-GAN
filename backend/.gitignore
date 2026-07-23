@@ -1,0 +1,17 @@
+*.pth
+__pycache__/
+*.pyc
+.env
+app/generated/*.png
+!app/generated/.gitkeep
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Trained models
+models/
+*.pth
+*.pt
+*.ckpt
+*.onnx

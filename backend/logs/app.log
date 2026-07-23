@@ -1,0 +1,96 @@
+2026-07-23 12:42:46.285 | INFO     | app.core.logging:configure_logging:73 - Logging configured | level=INFO | log_dir=/home/igris0410/projects/anime-generation/backend/logs
+2026-07-23 12:42:46.285 | INFO     | app.main:lifespan:53 - Starting Anime Generator API v1.0.0 [development]
+2026-07-23 12:42:49.481 | INFO     | app.core.logging:configure_logging:73 - Logging configured | level=INFO | log_dir=/home/igris0410/projects/anime-generation/backend/logs
+2026-07-23 12:42:49.481 | INFO     | app.main:lifespan:53 - Starting Anime Generator API v1.0.0 [development]
+2026-07-23 12:42:49.481 | ERROR    | app.main:lifespan:61 - Model failed to load at startup: Generator checkpoint not found at '/home/igris0410/projects/anime-generation/backend/models/generator_final.pth'. Place the trained .pth file at that location before starting the server.
+2026-07-23 12:42:49.482 | INFO     | logging:callHandlers:1706 - Application startup complete.
+2026-07-23 12:43:52.603 | INFO     | logging:callHandlers:1706 - Shutting down
+2026-07-23 12:43:52.707 | INFO     | logging:callHandlers:1706 - Waiting for application shutdown.
+2026-07-23 12:43:55.915 | INFO     | app.core.logging:configure_logging:73 - Logging configured | level=INFO | log_dir=/home/igris0410/projects/anime-generation/backend/logs
+2026-07-23 12:43:55.915 | INFO     | app.main:lifespan:53 - Starting Anime Generator API v1.0.0 [development]
+2026-07-23 12:43:55.916 | INFO     | app.core.model_loader:load:111 - Loading generator checkpoint from /home/igris0410/projects/anime-generation/backend/models/generator_final.pth onto device=cpu
+2026-07-23 12:43:55.961 | SUCCESS  | app.core.model_loader:load:131 - Generator model loaded successfully. device=cpu
+2026-07-23 12:43:59.099 | INFO     | app.core.logging:configure_logging:73 - Logging configured | level=INFO | log_dir=/home/igris0410/projects/anime-generation/backend/logs
+2026-07-23 12:43:59.099 | INFO     | app.main:lifespan:53 - Starting Anime Generator API v1.0.0 [development]
+2026-07-23 12:43:59.100 | INFO     | app.core.model_loader:load:111 - Loading generator checkpoint from /home/igris0410/projects/anime-generation/backend/models/generator_final.pth onto device=cpu
+2026-07-23 12:43:59.163 | SUCCESS  | app.core.model_loader:load:131 - Generator model loaded successfully. device=cpu
+2026-07-23 12:43:59.166 | INFO     | logging:callHandlers:1706 - Application startup complete.
+2026-07-23 12:44:04.552 | INFO     | app.core.logging:configure_logging:73 - Logging configured | level=INFO | log_dir=/home/igris0410/projects/anime-generation/backend/logs
+2026-07-23 12:44:04.553 | INFO     | app.main:lifespan:53 - Starting Anime Generator API v1.0.0 [development]
+2026-07-23 12:44:04.554 | INFO     | app.core.model_loader:load:111 - Loading generator checkpoint from /home/igris0410/projects/anime-generation/backend/models/generator_final.pth onto device=cpu
+2026-07-23 12:44:04.602 | SUCCESS  | app.core.model_loader:load:131 - Generator model loaded successfully. device=cpu
+2026-07-23 12:44:04.719 | INFO     | app.services.generator_service:generate_image:70 - Generated image 'd71c09c5.png' | seed=None | device=cpu | time=109.89ms
+2026-07-23 12:44:04.722 | INFO     | logging:callHandlers:1706 - HTTP Request: POST http://testserver/generate "HTTP/1.1 200 OK"
+2026-07-23 12:44:04.724 | INFO     | app.core.model_loader:unload:139 - Generator model unloaded.
+2026-07-23 12:44:04.725 | INFO     | app.main:lifespan:66 - Application shutdown complete.
+2026-07-23 12:44:04.786 | INFO     | app.core.logging:configure_logging:73 - Logging configured | level=INFO | log_dir=/home/igris0410/projects/anime-generation/backend/logs
+2026-07-23 12:44:04.786 | INFO     | app.main:lifespan:53 - Starting Anime Generator API v1.0.0 [development]
+2026-07-23 12:44:04.787 | INFO     | app.core.model_loader:load:111 - Loading generator checkpoint from /home/igris0410/projects/anime-generation/backend/models/generator_final.pth onto device=cpu
+2026-07-23 12:44:04.827 | SUCCESS  | app.core.model_loader:load:131 - Generator model loaded successfully. device=cpu
+2026-07-23 12:44:04.854 | INFO     | app.services.generator_service:generate_image:70 - Generated image '413e3268.png' | seed=42 | device=cpu | time=17.41ms
+2026-07-23 12:44:04.856 | INFO     | logging:callHandlers:1706 - HTTP Request: POST http://testserver/generate "HTTP/1.1 200 OK"
+2026-07-23 12:44:04.872 | INFO     | app.services.generator_service:generate_image:70 - Generated image 'b5edf83d.png' | seed=42 | device=cpu | time=12.35ms
+2026-07-23 12:44:04.873 | INFO     | logging:callHandlers:1706 - HTTP Request: POST http://testserver/generate "HTTP/1.1 200 OK"
+2026-07-23 12:44:04.874 | INFO     | app.core.model_loader:unload:139 - Generator model unloaded.
+2026-07-23 12:44:04.874 | INFO     | app.main:lifespan:66 - Application shutdown complete.
+2026-07-23 12:44:04.930 | INFO     | app.core.logging:configure_logging:73 - Logging configured | level=INFO | log_dir=/home/igris0410/projects/anime-generation/backend/logs
+2026-07-23 12:44:04.930 | INFO     | app.main:lifespan:53 - Starting Anime Generator API v1.0.0 [development]
+2026-07-23 12:44:04.932 | INFO     | app.core.model_loader:load:111 - Loading generator checkpoint from /home/igris0410/projects/anime-generation/backend/models/generator_final.pth onto device=cpu
+2026-07-23 12:44:04.995 | SUCCESS  | app.core.model_loader:load:131 - Generator model loaded successfully. device=cpu
+2026-07-23 12:44:05.032 | INFO     | app.services.generator_service:generate_image:70 - Generated image '198d1cd0.png' | seed=None | device=cpu | time=30.66ms
+2026-07-23 12:44:05.033 | INFO     | logging:callHandlers:1706 - HTTP Request: POST http://testserver/generate "HTTP/1.1 200 OK"
+2026-07-23 12:44:05.038 | INFO     | logging:callHandlers:1706 - HTTP Request: GET http://testserver/generated/198d1cd0.png "HTTP/1.1 200 OK"
+2026-07-23 12:44:05.039 | INFO     | app.core.model_loader:unload:139 - Generator model unloaded.
+2026-07-23 12:44:05.039 | INFO     | app.main:lifespan:66 - Application shutdown complete.
+2026-07-23 12:44:05.093 | INFO     | app.core.logging:configure_logging:73 - Logging configured | level=INFO | log_dir=/home/igris0410/projects/anime-generation/backend/logs
+2026-07-23 12:44:05.093 | INFO     | app.main:lifespan:53 - Starting Anime Generator API v1.0.0 [development]
+2026-07-23 12:44:05.093 | INFO     | app.core.model_loader:load:111 - Loading generator checkpoint from /home/igris0410/projects/anime-generation/backend/models/generator_final.pth onto device=cpu
+2026-07-23 12:44:05.123 | SUCCESS  | app.core.model_loader:load:131 - Generator model loaded successfully. device=cpu
+2026-07-23 12:44:05.127 | INFO     | logging:callHandlers:1706 - HTTP Request: GET http://testserver/generated/..%2f..%2fetc%2fpasswd "HTTP/1.1 404 Not Found"
+2026-07-23 12:44:05.128 | INFO     | app.core.model_loader:unload:139 - Generator model unloaded.
+2026-07-23 12:44:05.129 | INFO     | app.main:lifespan:66 - Application shutdown complete.
+2026-07-23 12:44:05.168 | INFO     | app.core.logging:configure_logging:73 - Logging configured | level=INFO | log_dir=/home/igris0410/projects/anime-generation/backend/logs
+2026-07-23 12:44:05.169 | INFO     | app.main:lifespan:53 - Starting Anime Generator API v1.0.0 [development]
+2026-07-23 12:44:05.169 | INFO     | app.core.model_loader:load:111 - Loading generator checkpoint from /home/igris0410/projects/anime-generation/backend/models/generator_final.pth onto device=cpu
+2026-07-23 12:44:05.210 | SUCCESS  | app.core.model_loader:load:131 - Generator model loaded successfully. device=cpu
+2026-07-23 12:44:05.214 | WARNING  | app.main:handler:96 - ImageNotFoundError on /generated/deadbeef.png -> 404: Generated image 'deadbeef.png' does not exist.
+2026-07-23 12:44:05.215 | INFO     | logging:callHandlers:1706 - HTTP Request: GET http://testserver/generated/deadbeef.png "HTTP/1.1 404 Not Found"
+2026-07-23 12:44:05.216 | INFO     | app.core.model_loader:unload:139 - Generator model unloaded.
+2026-07-23 12:44:05.216 | INFO     | app.main:lifespan:66 - Application shutdown complete.
+2026-07-23 12:44:05.233 | INFO     | app.core.logging:configure_logging:73 - Logging configured | level=INFO | log_dir=/home/igris0410/projects/anime-generation/backend/logs
+2026-07-23 12:44:05.233 | INFO     | app.main:lifespan:53 - Starting Anime Generator API v1.0.0 [development]
+2026-07-23 12:44:05.234 | INFO     | app.core.model_loader:load:111 - Loading generator checkpoint from /home/igris0410/projects/anime-generation/backend/models/generator_final.pth onto device=cpu
+2026-07-23 12:44:05.293 | SUCCESS  | app.core.model_loader:load:131 - Generator model loaded successfully. device=cpu
+2026-07-23 12:44:05.298 | INFO     | logging:callHandlers:1706 - HTTP Request: GET http://testserver/ "HTTP/1.1 200 OK"
+2026-07-23 12:44:05.299 | INFO     | app.core.model_loader:unload:139 - Generator model unloaded.
+2026-07-23 12:44:05.300 | INFO     | app.main:lifespan:66 - Application shutdown complete.
+2026-07-23 12:44:05.330 | INFO     | app.core.logging:configure_logging:73 - Logging configured | level=INFO | log_dir=/home/igris0410/projects/anime-generation/backend/logs
+2026-07-23 12:44:05.330 | INFO     | app.main:lifespan:53 - Starting Anime Generator API v1.0.0 [development]
+2026-07-23 12:44:05.331 | INFO     | app.core.model_loader:load:111 - Loading generator checkpoint from /home/igris0410/projects/anime-generation/backend/models/generator_final.pth onto device=cpu
+2026-07-23 12:44:05.377 | SUCCESS  | app.core.model_loader:load:131 - Generator model loaded successfully. device=cpu
+2026-07-23 12:44:05.382 | INFO     | logging:callHandlers:1706 - HTTP Request: GET http://testserver/health "HTTP/1.1 200 OK"
+2026-07-23 12:44:05.383 | INFO     | app.core.model_loader:unload:139 - Generator model unloaded.
+2026-07-23 12:44:05.383 | INFO     | app.main:lifespan:66 - Application shutdown complete.
+2026-07-23 12:44:13.286 | INFO     | app.core.logging:configure_logging:73 - Logging configured | level=INFO | log_dir=/home/igris0410/projects/anime-generation/backend/logs
+2026-07-23 12:44:13.286 | INFO     | app.main:lifespan:53 - Starting Anime Generator API v1.0.0 [development]
+2026-07-23 12:44:13.287 | INFO     | app.core.model_loader:load:111 - Loading generator checkpoint from /home/igris0410/projects/anime-generation/backend/models/generator_final.pth onto device=cpu
+2026-07-23 12:44:13.346 | SUCCESS  | app.core.model_loader:load:131 - Generator model loaded successfully. device=cpu
+2026-07-23 12:44:13.357 | INFO     | logging:callHandlers:1706 - HTTP Request: GET http://testserver/health "HTTP/1.1 200 OK"
+2026-07-23 12:44:13.413 | INFO     | app.services.generator_service:generate_image:70 - Generated image 'a85444c4.png' | seed=42 | device=cpu | time=43.80ms
+2026-07-23 12:44:13.415 | INFO     | logging:callHandlers:1706 - HTTP Request: POST http://testserver/generate "HTTP/1.1 200 OK"
+2026-07-23 12:44:13.418 | INFO     | app.core.model_loader:unload:139 - Generator model unloaded.
+2026-07-23 12:44:13.419 | INFO     | app.main:lifespan:66 - Application shutdown complete.
+2026-07-23 12:44:27.863 | INFO     | logging:callHandlers:1706 - Shutting down
+2026-07-23 12:44:27.965 | INFO     | logging:callHandlers:1706 - Waiting for application shutdown.
+2026-07-23 12:44:27.967 | INFO     | app.core.model_loader:unload:139 - Generator model unloaded.
+2026-07-23 12:44:37.133 | INFO     | app.core.logging:configure_logging:73 - Logging configured | level=INFO | log_dir=/home/igris0410/projects/anime-generation/backend/logs
+2026-07-23 12:44:37.133 | INFO     | app.main:lifespan:53 - Starting Anime Generator API v1.0.0 [development]
+2026-07-23 12:44:37.134 | INFO     | app.core.model_loader:load:111 - Loading generator checkpoint from /home/igris0410/projects/anime-generation/backend/models/generator_final.pth onto device=cpu
+2026-07-23 12:44:37.175 | SUCCESS  | app.core.model_loader:load:131 - Generator model loaded successfully. device=cpu
+2026-07-23 12:44:37.177 | INFO     | logging:callHandlers:1706 - Application startup complete.
+2026-07-23 12:44:50.513 | INFO     | logging:callHandlers:1706 - 127.0.0.1:51494 - "GET / HTTP/1.1" 200
+2026-07-23 12:44:50.620 | INFO     | logging:callHandlers:1706 - 127.0.0.1:51494 - "GET /favicon.ico HTTP/1.1" 404
+2026-07-23 12:45:05.864 | INFO     | logging:callHandlers:1706 - Shutting down
+2026-07-23 12:45:05.966 | INFO     | logging:callHandlers:1706 - Waiting for application shutdown.
+2026-07-23 12:45:05.970 | INFO     | app.core.model_loader:unload:139 - Generator model unloaded.
+2026-07-23 12:45:05.971 | INFO     | app.main:lifespan:66 - Application shutdown complete.

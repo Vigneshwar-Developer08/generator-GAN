@@ -1,0 +1,14 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+torch==2.5.1
+torchvision==0.20.1
+Pillow==11.1.0
+pydantic==2.10.4
+pydantic-settings==2.7.1
+python-multipart==0.0.20
+loguru==0.7.3
+python-dotenv==1.0.1
+
+# --- testing (optional, install with: pip install -r requirements.txt) ---
+pytest==8.3.4
+httpx==0.28.1
