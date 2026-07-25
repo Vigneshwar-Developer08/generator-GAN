@@ -94,3 +94,10 @@
 2026-07-23 12:45:05.966 | INFO     | logging:callHandlers:1706 - Waiting for application shutdown.
 2026-07-23 12:45:05.970 | INFO     | app.core.model_loader:unload:139 - Generator model unloaded.
 2026-07-23 12:45:05.971 | INFO     | app.main:lifespan:66 - Application shutdown complete.
+2026-07-25 18:26:22.036 | INFO     | app.core.logging:configure_logging:73 - Logging configured | level=INFO | log_dir=/home/igris0410/projects/anime-generation/backend/logs
+2026-07-25 18:26:22.036 | INFO     | app.main:lifespan:53 - Starting Anime Generator API v1.0.0 [development]
+2026-07-25 18:26:22.037 | INFO     | app.core.model_loader:load:111 - Loading generator checkpoint from /home/igris0410/projects/anime-generation/backend/models/generator_final.pth onto device=cpu
+2026-07-25 18:26:22.105 | SUCCESS  | app.core.model_loader:load:131 - Generator model loaded successfully. device=cpu
+2026-07-25 18:26:22.109 | INFO     | logging:callHandlers:1706 - Application startup complete.
+2026-07-25 18:28:08.009 | INFO     | logging:callHandlers:1706 - Shutting down
+2026-07-25 18:28:08.110 | INFO     | logging:callHandlers:1706 - Waiting for application shutdown.
