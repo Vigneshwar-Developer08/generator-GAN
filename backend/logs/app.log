@@ -101,3 +101,35 @@
 2026-07-25 18:26:22.109 | INFO     | logging:callHandlers:1706 - Application startup complete.
 2026-07-25 18:28:08.009 | INFO     | logging:callHandlers:1706 - Shutting down
 2026-07-25 18:28:08.110 | INFO     | logging:callHandlers:1706 - Waiting for application shutdown.
+2026-07-27 18:41:46.771 | INFO     | app.core.logging:configure_logging:73 - Logging configured | level=INFO | log_dir=/home/igris0410/projects/anime-generation/backend/logs
+2026-07-27 18:41:46.772 | INFO     | app.main:lifespan:53 - Starting Anime Generator API v1.0.0 [development]
+2026-07-27 18:41:46.773 | INFO     | app.core.model_loader:load:111 - Loading generator checkpoint from /home/igris0410/projects/anime-generation/backend/models/generator_final.pth onto device=cpu
+2026-07-27 18:41:46.843 | SUCCESS  | app.core.model_loader:load:131 - Generator model loaded successfully. device=cpu
+2026-07-27 18:41:46.845 | INFO     | logging:callHandlers:1706 - Application startup complete.
+2026-07-27 18:41:50.111 | INFO     | logging:callHandlers:1706 - 127.0.0.1:55612 - "OPTIONS /health HTTP/1.1" 200
+2026-07-27 18:41:50.133 | INFO     | logging:callHandlers:1706 - 127.0.0.1:55616 - "GET /health HTTP/1.1" 200
+2026-07-27 18:41:52.507 | INFO     | logging:callHandlers:1706 - 127.0.0.1:55616 - "GET /health HTTP/1.1" 200
+2026-07-27 18:41:52.520 | INFO     | logging:callHandlers:1706 - 127.0.0.1:55616 - "GET /health HTTP/1.1" 200
+2026-07-27 18:42:07.529 | INFO     | logging:callHandlers:1706 - 127.0.0.1:49716 - "GET /health HTTP/1.1" 200
+2026-07-27 18:42:13.332 | INFO     | logging:callHandlers:1706 - Shutting down
+2026-07-27 18:42:13.433 | INFO     | logging:callHandlers:1706 - Waiting for application shutdown.
+2026-07-27 18:42:13.435 | INFO     | app.core.model_loader:unload:139 - Generator model unloaded.
+2026-07-27 18:49:10.788 | INFO     | app.core.logging:configure_logging:73 - Logging configured | level=INFO | log_dir=/home/igris0410/projects/anime-generation/backend/logs
+2026-07-27 18:49:10.789 | INFO     | app.main:lifespan:53 - Starting Anime Generator API v1.0.0 [development]
+2026-07-27 18:49:10.789 | INFO     | app.core.model_loader:load:111 - Loading generator checkpoint from /home/igris0410/projects/anime-generation/backend/models/generator_final.pth onto device=cpu
+2026-07-27 18:49:10.862 | SUCCESS  | app.core.model_loader:load:131 - Generator model loaded successfully. device=cpu
+2026-07-27 18:49:10.873 | INFO     | logging:callHandlers:1706 - Application startup complete.
+2026-07-27 18:49:17.245 | INFO     | logging:callHandlers:1706 - 127.0.0.1:50138 - "GET /health HTTP/1.1" 200
+2026-07-27 18:49:17.249 | INFO     | logging:callHandlers:1706 - 127.0.0.1:50138 - "GET /health HTTP/1.1" 200
+2026-07-27 18:49:24.130 | INFO     | logging:callHandlers:1706 - 127.0.0.1:47844 - "OPTIONS /generate HTTP/1.1" 200
+2026-07-27 18:49:24.244 | INFO     | app.services.generator_service:generate_image:70 - Generated image '14fd49f6.png' | seed=2 | device=cpu | time=106.65ms
+2026-07-27 18:49:24.245 | INFO     | logging:callHandlers:1706 - 127.0.0.1:47854 - "POST /generate HTTP/1.1" 200
+2026-07-27 18:49:24.266 | INFO     | logging:callHandlers:1706 - 127.0.0.1:47854 - "GET /health HTTP/1.1" 200
+2026-07-27 18:49:24.284 | INFO     | logging:callHandlers:1706 - 127.0.0.1:47866 - "GET /generated/14fd49f6.png HTTP/1.1" 200
+2026-07-27 18:49:29.944 | INFO     | logging:callHandlers:1706 - 127.0.0.1:47874 - "GET /generated/14fd49f6.png HTTP/1.1" 200
+2026-07-27 18:49:32.248 | INFO     | logging:callHandlers:1706 - 127.0.0.1:47888 - "GET /health HTTP/1.1" 200
+2026-07-27 18:49:47.249 | INFO     | logging:callHandlers:1706 - 127.0.0.1:53070 - "GET /health HTTP/1.1" 200
+2026-07-27 18:49:56.449 | INFO     | logging:callHandlers:1706 - 127.0.0.1:48834 - "GET /health HTTP/1.1" 200
+2026-07-27 18:49:56.464 | INFO     | logging:callHandlers:1706 - 127.0.0.1:48834 - "GET /health HTTP/1.1" 200
+2026-07-27 18:50:06.423 | INFO     | logging:callHandlers:1706 - Shutting down
+2026-07-27 18:50:06.525 | INFO     | logging:callHandlers:1706 - Waiting for application shutdown.
